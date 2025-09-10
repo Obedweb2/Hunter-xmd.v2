@@ -49,7 +49,7 @@ async function downloadSessionData() {
             return false;
         }
 
-        const sessdata = config.SESSION_ID.split("Caseyrhodes~")[1];
+        const sessdata = config.SESSION_ID.split("HUNTER-XMD~")[1];
 
         if (!sessdata || !sessdata.includes("#")) {
             return false;
@@ -86,7 +86,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["JINX-MD", "safari", "3.3"],
+            browser: ["HUNTER-XMD.V5", "safari", "3.3"],
             auth: state,
             msgRetryCounterCache,
             getMessage: async (key) => {
