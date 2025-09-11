@@ -66,7 +66,7 @@ const Lyrics = async (m, Matrix) => {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
               display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴋʜᴀɴ-ᴍᴅ",
-              url: `https://whatsapp.com/channel/0029Vaj1hl1Lo4hksSXY0U2t`
+              url: `https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I`
             })
           }
         ];
@@ -83,7 +83,7 @@ const Lyrics = async (m, Matrix) => {
                   text: truncatedLyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ*"
+                  text: "> *© ᴍᴀᴅᴇ ʙʏ ᴏʙᴇᴅ ᴛᴇᴄʜ*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: `${title} - ${artist}`,
