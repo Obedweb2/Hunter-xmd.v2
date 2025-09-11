@@ -479,7 +479,7 @@ ${menuResponse}
 *⚙️ Prefix*: ${prefix}
 *🌐 Mode*: ${mode}
 
-> ︎®ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ 🌟
+> ︎®ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴏʙᴇᴅᴛᴇᴄʜ ✨
 `;
 
       const backButton = {
@@ -512,7 +512,7 @@ ${menuResponse}
     console.error(`❌ Menu error: ${error.message}`);
     await Matrix.sendMessage(m.from, {
       text: `•
-• *📁 ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* hit a snag! Error: ${error.message || "Failed to load menu"} 😡
+• *📁 ʜᴜɴᴛᴇʀxᴍᴅᴠ2 ᴛᴇᴄʜ* hit a snag! Error: ${error.message || "Failed to load menu"} 😡
 •`,
     }, { quoted: m });
   }
