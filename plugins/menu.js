@@ -45,9 +45,9 @@ function toFancyFont(text, isUpperCase = false) {
 
 // Fixed image URLs array
 const menuImages = [
-  "https://files.catbox.moe/lls7dy.jpg",
-  "https://files.catbox.moe/ovb8bz.jpg",
-  "https://files.catbox.moe/xgi7fz.jpg" // Add your third image URL here
+  "https://files.catbox.moe/iezueg.jpg",
+  "https://files.catbox.moe/plt055.jpg",
+  "https://files.catbox.moe/cf1azl.jpg" // Add your third image URL here
 ];
 
 // Image fetch utility - now selects a random image
