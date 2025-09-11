@@ -16,7 +16,7 @@ const casey = async (m, Matrix) => {
     if (!text) {
       const buttonMessage = {
         text: `*HUNTER AI*\n\nPlease provide a message or question for HUNTER AI to respond to.\n\nUsage: ${prefix}Hunter Hello, how are you?`,
-        footer: "Casey AI - Powered by ᴏʙᴇᴅᴛᴇᴄʜ ᴀɪ",
+        footer: "Hunter AI - Powered by ᴏʙᴇᴅᴛᴇᴄʜ ᴀɪ",
         buttons: [
           { buttonId: `${prefix}aimenu`, buttonText: { displayText: "AI MENU" }, type: 1 },
           { buttonId: `${prefix}menu`, buttonText: { displayText: "MAIN MENU" }, type: 1 }
