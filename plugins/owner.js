@@ -75,7 +75,7 @@ const menu = async (m, Matrix) => {
     };
 
     // Use only default image
-    const defaultImageUrl = "https://i.ibb.co/wZ4ypv7Y/caseytech.jpg";
+    const defaultImageUrl = "https://files.catbox.moe/plt055.jpg";
     const menuImage = await getImageFromURL(defaultImageUrl);
 
     const buttons = [
@@ -91,14 +91,14 @@ const menu = async (m, Matrix) => {
         buttonParamsJson: JSON.stringify({
           display_text: "📋Copy message",
           id: "copy_code",
-          copy_code: +254112192119
+          copy_code: +254787892183
         })
       },
       {
         name: "cta_url",
         buttonParamsJson: JSON.stringify({
           display_text: "📚Follow Channel",
-          url: `https://whatsapp.com/channel/0029VbAUmPuDJ6GuVsg8YC3R`
+          url: `https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I`
         }),
       },
     ];
@@ -112,15 +112,15 @@ const menu = async (m, Matrix) => {
               text: str,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬 𝐭𝐞𝐜𝐡",
+              text: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴏʙᴇᴅᴛᴇᴄʜ",
             }),
             contextInfo: {
               mentionedJid: [m.sender],
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: "120363302677217436@newsletter",
-                newsletterName: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐀𝐈",
+                newsletterJid: "120363416335506023@newsletter",
+                newsletterName: "𝐇𝐔𝐍𝐓𝐄𝐑 𝐗𝐌𝐃 𝐀𝐈",
                 serverMessageId: 143,
               },
             },
