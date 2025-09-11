@@ -25,9 +25,9 @@ const config = {
   AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
   BOT_NAME: process.env.BOT_NAME || "JINX-MD",
-  MENU_IMAGE: process.env.MENU_IMAGE || "https://i.ibb.co/wZ4ypv7Y/caseytech.jpg",
-  DESCRIPTION: process.env.DESCRIPTION || "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ",
-  OWNER_NAME: process.env.OWNER_NAME || "Caseyrhodes",
+  MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/iezueg.jpg",
+  DESCRIPTION: process.env.DESCRIPTION || "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅᴠ2",
+  OWNER_NAME: process.env.OWNER_NAME || "ᴏʙᴇᴅᴛᴇᴄʜ",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "254112192119",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
