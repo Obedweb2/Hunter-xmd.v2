@@ -27,8 +27,8 @@ const emojimix = async (m, Matrix) => {
 
     // Send the emoji mix as a sticker
     const encmedia = await Matrix.sendImageAsSticker(m.from, anu.result, m, { 
-      packname: "Caseyrhodes", 
-      author: "Caseyrhodes tech", 
+      packname: "Obed", 
+      author: "Obed tech", 
       categories: ['Emoji Mix'] // You can customize the categories
     });
 
