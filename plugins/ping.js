@@ -28,8 +28,8 @@ const ping = async (m, Matrix) => {
     // ======================
     // CONTENT DEFINITION
     // ======================
-    const imageUrl = "https://i.ibb.co/fGSVG8vJ/caseyweb.jpg";
-    const text = `*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ* : ${responseTime.toFixed(2)} s`;
+    const imageUrl = "https://files.catbox.moe/plt055.jpg";
+    const text = `*ʜᴜɴᴛᴇʀ xᴍᴅᴠ2* : ${responseTime.toFixed(2)} s`;
     
     // ======================
     // BUTTONS DEFINITION
@@ -73,7 +73,7 @@ const ping = async (m, Matrix) => {
       
       // Text content
       caption: text,
-      footer: "CASEYRHODES AI",
+      footer: " 𝐇𝐔𝐍𝐓𝐄𝐑 𝐗𝐌𝐃 𝐀𝐈",
       
       // Interactive elements
       buttons: buttons,
@@ -88,8 +88,8 @@ const ping = async (m, Matrix) => {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363302677217436@newsletter',
-          newsletterName: 'POWERED BY CASEYRHODES TECH',
+          newsletterJid: '120363416335506023@newsletter',
+          newsletterName: 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴏʙᴇᴅᴛᴇᴄʜ',
           serverMessageId: -1
         }
       }
