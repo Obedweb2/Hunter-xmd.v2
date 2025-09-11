@@ -9,9 +9,9 @@ const repo = async (m, gss) => {
   const args = m.body.slice(prefix.length).trim().split(/ +/).slice(1);
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/caseyweb/CASEYRHODES-XMD";
-    const channelURL = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
-    const supportURL = "https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH?mode=ac_t";
+    const githubRepoURL = "https://github.com/Obedweb/Hunter-Xmd.V2";
+    const channelURL = "https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I";
+    const supportURL = "https://chat.whatsapp.com/DfJTRlOtIc5HTEFptXYvsV?mode=ems_copy_c";
 
     try {
       const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -55,7 +55,7 @@ ${readmore}
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://i.ibb.co/fGSVG8vJ/caseyweb.jpg" },
+          image: { url: "https://files.catbox.moe/plt055.jpg" },
           caption: formattedInfo,
           buttons: buttons,
           headerType: 1,
@@ -98,11 +98,11 @@ ${readmore}
     }
     else if (selectedButtonId === `${prefix}joinchannel`) {
       // Send channel link
-      m.reply("Join our channel: https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E");
+      m.reply("Join our channel: https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I");
     }
     else if (selectedButtonId === `${prefix}support`) {
       // Send support group link
-      m.reply("Join our support group: https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH?mode=ac_t");
+      m.reply("Join our support group: https://chat.whatsapp.com/DfJTRlOtIc5HTEFptXYvsV?mode=ems_copy_c");
     }
   }
 };
