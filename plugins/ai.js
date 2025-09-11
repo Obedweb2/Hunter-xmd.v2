@@ -117,7 +117,7 @@ const aiMenu = async (m, Matrix) => {
 
       // If user requested an image specifically, include the image URL in a single message
       if (isImageRequested) {
-        const imageUrl = "https://i.ibb.co/fGSVG8vJ/caseyweb.jpg";
+        const imageUrl = "https://files.catbox.moe/lls7dy.jpg";
         
         // Create a combined message with image and text
         const template = generateWAMessageFromContent(m.from, 
@@ -130,7 +130,7 @@ const aiMenu = async (m, Matrix) => {
                 },
                 templateMessage: {
                   hydratedTemplate: {
-                    hydratedContentText: `*${toFancyFont(cmd)} ${cmd === 'deepimg' ? 'ɪᴍᴀɢᴇ' : 'ʀᴇsᴘᴏɴsᴇ'}*\n\n${answer}\n\n${toFancyFont('powered by Caseyrhodes xtech')}`,
+                    hydratedContentText: `*${toFancyFont(cmd)} ${cmd === 'deepimg' ? 'ɪᴍᴀɢᴇ' : 'ʀᴇsᴘᴏɴsᴇ'}*\n\n${answer}\n\n${toFancyFont('powered by ᴏʙᴇᴅᴛᴇᴄʜ')}`,
                     hydratedFooterText: "AI Response with Image",
                     hydratedButtons: buttons,
                     templateId: "1234567890",
@@ -138,7 +138,7 @@ const aiMenu = async (m, Matrix) => {
                     imageMessage: {
                       url: imageUrl,
                       mimetype: "image/jpeg",
-                      caption: `*${toFancyFont(cmd)} ${cmd === 'deepimg' ? 'ɪᴍᴀɢᴇ' : 'ʀᴇsᴘᴏɴsᴇ'}*\n\n${answer}\n\n${toFancyFont('powered by Caseyrhodes xtech')}`,
+                      caption: `*${toFancyFont(cmd)} ${cmd === 'deepimg' ? 'ɪᴍᴀɢᴇ' : 'ʀᴇsᴘᴏɴsᴇ'}*\n\n${answer}\n\n${toFancyFont('powered by ᴏʙᴇᴅᴛᴇᴄʜ')}`,
                     }
                   }
                 }
@@ -164,7 +164,7 @@ const aiMenu = async (m, Matrix) => {
       // If there's an error but user requested an image, still try to send the image
       if (isImageRequested) {
         try {
-          const imageUrl = "https://i.ibb.co/fGSVG8vJ/caseyweb.jpg";
+          const imageUrl = "https://files.catbox.moe/lls7dy.jpg";
           
           // Create a fallback message with just the image
           const template = generateWAMessageFromContent(m.from, 
