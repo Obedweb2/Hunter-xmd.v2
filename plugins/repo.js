@@ -30,7 +30,7 @@ ${readmore}
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴
 
 
-*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || "No description"}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ 🖤*`;
+*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || "No description"}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅᴠ2 🖤*`;
 
       // Create buttons
       const buttons = [
@@ -87,7 +87,7 @@ ${readmore}
         await gss.sendMessage(
           m.from,
           {
-            text: "*👤 Owner Information*\n\n*Name:* Casey Rhodes\n*Contact:* Add owner contact details here\n*GitHub:* https://github.com/caseyweb\n\n*Feel free to contact for any queries!*"
+            text: "*👤 Owner Information*\n\n*Name:* Obed Tech\n*Contact:* Add owner contact details here\n*GitHub:* https://github.com/Obedweb\n\n*Feel free to contact for any queries!*"
           },
           { quoted: m }
         );
