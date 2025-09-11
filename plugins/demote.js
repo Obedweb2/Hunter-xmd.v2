@@ -102,7 +102,7 @@ const demote = async (m, Matrix) => {
             // Use default image if no image found
             const imageContent = randomImage 
                 ? fs.readFileSync(randomImage) // Read file as buffer
-                : { url: "https://i.ibb.co/20ryR2pN/caseywebs.jpg" };
+                : { url: "https://files.catbox.moe/lls7dy.jpg" };
 
             // Verified contact (quoted base)
             const verifiedContact = {
@@ -113,8 +113,8 @@ const demote = async (m, Matrix) => {
                 },
                 message: {
                     contactMessage: {
-                        displayName: "Caseyrhodes-AI",
-                        vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD"
+                        displayName: "Hunter-XmdV2-AI",
+                        vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Hunter-Xmd.V2 VERIFIED ✅\nORG:OBED-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD"
                     }
                 }
             };
@@ -125,8 +125,8 @@ const demote = async (m, Matrix) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363402973786789@newsletter',
-                    newsletterName: 'ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ ✅',
+                    newsletterJid: '120363416335506023@newsletter',
+                    newsletterName: 'ᴏʙᴇᴅᴛᴇᴄʜ ᴀɪ ✅',
                     serverMessageId: 143
                 }
             };
