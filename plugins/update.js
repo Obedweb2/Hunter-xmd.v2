@@ -58,8 +58,8 @@ const update = async (m, Matrix) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
-                        newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐔𝐏𝐃𝐀𝐓𝐄𝐒',
+                        newsletterJid: '120363416335506023@newsletter',
+                        newsletterName: '𝐇𝐔𝐍𝐓𝐄𝐑-𝐗𝐌𝐃𝐕𝟐 𝐔𝐏𝐃𝐀𝐓𝐄𝐒',
                         serverMessageId: 143
                     }
                 }
@@ -70,7 +70,7 @@ const update = async (m, Matrix) => {
             
             console.log("🔄 Checking for updates...");
             const msg = await Matrix.sendMessage(m.from, { 
-                text: "```🔍 Checking for CASEYRHODES updates...```",
+                text: "```🔍 Checking for HUNTER-XMDV2 updates...```",
                 ...newsletterConfig
             }, { quoted: m });
 
@@ -83,10 +83,10 @@ const update = async (m, Matrix) => {
 
             // Fetch latest commit hash
             const { data: commitData } = await axios.get(
-                "https://api.github.com/repos/caseytech001/CASEYRHODES-AI/commits/main",
+                "https://api.github.com/repos/Obedweb/Hunter-XmdV2/commits/main",
                 {
                     headers: {
-                        'User-Agent': 'CASEYRHODES-AI-Bot'
+                        'User-Agent': '𝐇𝐔𝐍𝐓𝐄𝐑-𝐗𝐌𝐃𝐕𝟐-Bot'
                     }
                 }
             );
@@ -95,11 +95,11 @@ const update = async (m, Matrix) => {
 
             if (latestCommitHash === currentHash) {
                 if (m.React) await m.React("✅");
-                await sendUpdateMessage("✅ *Your CASEYRHODES-AI bot is already up-to-date!*");
+                await sendUpdateMessage("✅ *Your 𝐇𝐔𝐍𝐓𝐄𝐑-𝐗𝐌𝐃𝐕𝟐 bot is already up-to-date!*");
                 return;
             }
 
-            await sendUpdateMessage("🚀 *New update found! Downloading CASEYRHODES-AI...*\n\n_This may take a few moments..._");
+            await sendUpdateMessage("🚀 *New update found! Downloading 𝐇𝐔𝐍𝐓𝐄𝐑-𝐗𝐌𝐃𝐕𝟐...*\n\n_This may take a few moments..._");
 
             // Download latest ZIP
             const zipPath = path.join(process.cwd(), "latest.zip");
@@ -107,10 +107,10 @@ const update = async (m, Matrix) => {
             
             const response = await axios({
                 method: 'get',
-                url: "https://github.com/caseytech001/CASEYRHODES-AI/archive/main.zip",
+                url: "https://github.com/Obedweb2/Hunter-xmd.v2/archive/main.zip",
                 responseType: 'stream',
                 headers: {
-                    'User-Agent': 'CASEYRHODES-AI-Bot'
+                    'User-Agent': 'HUNTER-XMDV2-Bot'
                 }
             });
 
@@ -146,7 +146,7 @@ const update = async (m, Matrix) => {
             try {
                 await Matrix.sendMessage(m.from, {
                     image: { 
-                        url: "https://i.ibb.co/wN6Gw0ZF/lordcasey.jpg",
+                        url: "https://files.catbox.moe/iezueg.jpg",
                         mimetype: "image/jpeg"
                     },
                     caption: "✅ *Update complete!*\n\n_Restarting the bot to apply changes..._\n\n⚡ Powered by CASEYRHODES-TECH",
