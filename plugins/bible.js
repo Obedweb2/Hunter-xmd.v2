@@ -37,7 +37,7 @@ async function fetchMenuImage() {
     return imageCache.buffer;
   }
 
-  const imageUrl = "https://files.catbox.moe/y3j3kl.jpg";
+  const imageUrl = "https://files.catbox.moe/lls7dy.jpg";
   try {
     const response = await fetch(imageUrl);
     if (!response.ok) {
@@ -77,8 +77,8 @@ const messageContext = {
   forwardingScore: 1,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363302677217436@newsletter',
-    newsletterName: 'POWERED BY CASEYRHODES TECH',
+    newsletterJid: '120363416335506023@newsletter',
+    newsletterName: 'ᴍᴀᴅᴇ ʙʏ ᴏʙᴇᴅ ᴛᴇᴄʜ',
     serverMessageId: -1
   }
 };
