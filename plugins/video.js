@@ -279,7 +279,7 @@ const video = async (message, client) => {
         await sendCustomReaction(client, message, "❌");
         
         return await client.sendMessage(message.from, {
-          text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont("failed to send video file"),
+          text: "*ʜᴜɴᴛᴇʀ-xᴍᴅᴠ2 ᴀɪ* " + toFancyFont("failed to send video file"),
           mentions: [message.sender]
         }, { quoted: message });
       }
@@ -290,7 +290,7 @@ const video = async (message, client) => {
     await sendCustomReaction(client, message, "❌");
     
     await client.sendMessage(message.from, {
-      text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont("encountered an error. Please try again"),
+      text: "*ʜᴜɴᴛᴇʀ-xᴍᴅᴠ2 ᴀɪ* " + toFancyFont("encountered an error. Please try again"),
       mentions: [message.sender]
     }, { quoted: message });
   }
