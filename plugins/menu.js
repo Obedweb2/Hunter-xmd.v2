@@ -103,8 +103,8 @@ async function sendMenuAudio(Matrix, m) {
         },
         message: {
           contactMessage: {
-            displayName: "ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ ✅",
-            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
+            displayName: "ʜᴜɴᴛᴇʀ xᴍᴅᴠ2 ᴀɪ ✅",
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Hunter-XmdV2 VERIFIED ✅\nORG:OBED-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
           }
         }
       }
@@ -152,10 +152,10 @@ const menu = async (m, Matrix) => {
     if (validCommands.includes(cmd)) {
       const mainMenu = `*HI 👋* *${pushwish}*
 *╭───────────────┈⊷*
-*┊• 🌟 ʙᴏᴛ ɴᴀᴍᴇ :* *ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ*
+*┊• 🌟 ʙᴏᴛ ɴᴀᴍᴇ :* *ʜᴜɴᴛᴇʀxᴍᴅᴠ2 ᴛᴇᴄʜ ᴢᴏɴᴇ*
 *┊• ⏰ ᴛɪᴍᴇ :* *${xtime}*
 *┊• 📅 ᴅᴀᴛᴇ :* *${xdate}*
-*┊• 🎭 ᴅᴇᴠ :* *ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ ᴢᴏɴᴇ*
+*┊• 🎭 ᴅᴇᴠ :* *ʜᴜɴᴛᴇʀxᴍᴅᴠ2 ᴛᴇᴄʜ ᴢᴏɴᴇ*
 *┊• 📍 ᴘʀᴇғɪx :*  *[ ${prefix} ]*
 *╰───────────────┈⊷*
 ${readmore}
@@ -195,8 +195,8 @@ ${readmore}
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363302677217436@newsletter',
-            newsletterName: "ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ 🌟",
+            newsletterJid: '120363416335506023@newsletter',
+            newsletterName: "ʜᴜɴᴛᴇʀ xᴍᴅᴠ2 ᴀɪ❤️",
             serverMessageId: 143
           },
         },
@@ -217,8 +217,8 @@ ${readmore}
             },
             message: {
                 contactMessage: {
-                    displayName: "CASEYRHODES VERIFIED ✅",
-                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD"
+                    displayName: "HUNTER-XMDV2 VERIFIED ✅",
+                    vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: Hunter-XmdV2 VERIFIED ✅\nORG:OBED-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD"
                 }
             }
           }
@@ -236,8 +236,8 @@ ${readmore}
             },
             message: {
               contactMessage: {
-                displayName: "ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ ✅",
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
+                displayName: "ʜᴜɴᴛᴇʀ xᴍᴅᴠ2 ᴀɪ ✅",
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Hunter-XmdV2 VERIFIED ✅\nORG:OBED-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
               }
             }
           }
