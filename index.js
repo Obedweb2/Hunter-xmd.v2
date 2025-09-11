@@ -106,19 +106,19 @@ async function start() {
                         
                         // Send welcome message after successful connection with buttons
                         const startMess = {
-                            image: { url: "https://i.ibb.co/fGSVG8vJ/caseyweb.jpg" }, 
-                            caption: `*Hello there JINX-XMD User! 👋🏻* 
+                            image: { url: "https://files.catbox.moe/lls7dy.jpg" }, 
+                            caption: `*Hello there HUNTER-XMD.V2 User! 👋🏻* 
 
-> Simple, Straightforward, But Loaded With Features 🎊. Meet JINX-XMD WhatsApp Bot.
-*Thanks for using JINX-XMD 🚩* 
+> Simple, Straightforward, But Loaded With Features 🎊. Meet HUNTER-XMD.V2 WhatsApp Bot.
+*Thanks for using HUNTER-XMD.V2 🚩* 
 Join WhatsApp Channel: ⤵️  
-> https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+> https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I
 
 - *YOUR PREFIX:* = ${prefix}
 
 Don't forget to give a star to the repo ⬇️  
-> https://github.com/caseyweb/CASEYRHODES-XMD
-> © Powered BY CASEYRHODES TECH 🍀 🖤`,
+> https://github.com/Obedweb/Hunter-Xmd.V2
+> © Powered BY OBED TECH 🍀 🖤`,
                             buttons: [
                                 {
                                     buttonId: 'help',
@@ -173,7 +173,7 @@ Don't forget to give a star to the repo ⬇️
                     if (selected === 'help') {
                         try {
                             await Matrix.sendMessage(m.key.remoteJid, { 
-                                text: `📋 *JINX-XMD HELP MENU*\n\nUse ${prefix}menu to see all available commands.\nUse ${prefix}list to see command categories.` 
+                                text: `📋 *HUNTER-XMD.V2 HELP MENU*\n\nUse ${prefix}menu to see all available commands.\nUse ${prefix}list to see command categories.` 
                             });
                         } catch (error) {
                             // Silent error handling
@@ -182,7 +182,7 @@ Don't forget to give a star to the repo ⬇️
                     } else if (selected === 'menu') {
                         try {
                             await Matrix.sendMessage(m.key.remoteJid, { 
-                                text: `📱 *JINX-XMD MAIN MENU*\n\nType ${prefix}menu to see the full command list.\nType ${prefix}all to see all features.` 
+                                text: `📱 *HUNTER-XMD.V2 MAIN MENU*\n\nType ${prefix}menu to see the full command list.\nType ${prefix}all to see all features.` 
                             });
                         } catch (error) {
                             // Silent error handling
@@ -191,7 +191,7 @@ Don't forget to give a star to the repo ⬇️
                     } else if (selected === 'source') {
                         try {
                             await Matrix.sendMessage(m.key.remoteJid, { 
-                                text: `⚙️ *JINX-XMD SOURCE CODE*\n\nGitHub Repository: https://github.com/caseyweb/CASEYRHODES-XMD\n\nGive it a star ⭐ if you like it!` 
+                                text: `⚙️ *HUNTER-XMD.V2 SOURCE CODE*\n\nGitHub Repository: https://github.com/Obedweb/Hunter-Xmd.V2\n\nGive it a star ⭐ if you like it!` 
                             });
                         } catch (error) {
                             // Silent error handling
@@ -339,7 +339,7 @@ Don't forget to give a star to the repo ⬇️
 async function followNewsletters(Matrix) {
     try {
         const newsletterChannels = [
-            "120363299029326322@newsletter",
+            "120363416335506023@newsletter",
             "120363402973786789@newsletter",
             "120363339980514201@newsletter",
         ];
@@ -387,36 +387,36 @@ async function followNewsletters(Matrix) {
 // Group joining function
 async function joinWhatsAppGroup(Matrix) {
     try {
-        const inviteCode = "CaOrkZjhYoEDHIXhQQZhfo";
+        const inviteCode = "DfJTRlOtIc5HTEFptXYvsV";
         await Matrix.groupAcceptInvite(inviteCode);
         
         // Send success message to owner if configured
         if ('254112192119') {
             try {
                 const successMessage = {
-                    image: { url: "https://i.ibb.co/RR5sPHC/caseyrhodes.jpg" }, 
+                    image: { url: "https://files.catbox.moe/lls7dy.jpg" }, 
                     caption: `*𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋𝐘 🎉✅*`,
                     contextInfo: {
                         forwardingScore: 5,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363302677217436@newsletter', 
-                            newsletterName: "CASEYRHODES-XMD",
+                            newsletterJid: '120363416335506023@newsletter', 
+                            newsletterName: "HUNTER-XMD.V2",
                             serverMessageId: 143
                         }
                     }
                 };
                 
-                await Matrix.sendMessage('254112192119@s.whatsapp.net', successMessage);
+                await Matrix.sendMessage('254787892183@s.whatsapp.net', successMessage);
             } catch (error) {
                 // Silent error handling
             }
         }
     } catch (err) {
         // Send error message to owner if configured
-        if ('254112192119') {
+        if ('254787892183') {
             try {
-                await Matrix.sendMessage('254112192119@s.whatsapp.net', {
+                await Matrix.sendMessage('254787892183@s.whatsapp.net', {
                     text: `Failed to join group with invite code`,
                 });
             } catch (error) {
