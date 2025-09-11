@@ -18,8 +18,8 @@ const quotedContact = {
   },
   message: {
     contactMessage: {
-      displayName: "ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴠᴇʀɪғɪᴇᴅ✅",
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Caseyrhodes VERIFIED ✅\nORG:CASEYRHODES-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
+      displayName: "ᴏʙᴇᴅᴛᴇᴄʜ ᴠᴇʀɪғɪᴇᴅ✅",
+      vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Hunter-Xmd.V2 VERIFIED ✅\nORG:HUNTER-XMD.V2 BOT;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
     }
   }
 };
@@ -72,7 +72,7 @@ const gitclone = async (m, Matrix) => {
 
     // Status text with zip information
     const statusText = `
-╭─〔 📦 *ᴄᴀsᴇʏʀʜᴏᴅᴇs ɢɪᴛ ᴄʟᴏɴᴇ* 〕─⬣
+╭─〔 📦 *ᴏʙᴇᴅᴛᴇᴄʜ ɢɪᴛ ᴄʟᴏɴᴇ* 〕─⬣
 │ 👤 *ᴜꜱᴇʀ:* ${user}
 │ 📁 *ʀᴇᴘᴏ:* ${repo}
 │ 📝 *ꜰɪʟᴇɴᴀᴍᴇ:* ${fileName}
@@ -91,7 +91,7 @@ const gitclone = async (m, Matrix) => {
     // Create a single message with all information and buttons
     const templateMessage = {
       text: statusText,
-      footer: "> ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ",
+      footer: "> ʙʏ ᴏʙᴇᴅ ᴛᴇᴄʜ",
       templateButtons: buttons,
       headerType: 1,
       contextInfo: {
@@ -99,8 +99,8 @@ const gitclone = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363420646690176@newsletter",
-          newsletterName: "ɢɪᴛʜᴜʙ ᴄʟᴏɴᴇ 👻",
+          newsletterJid: "120363416335506023@newsletter",
+          newsletterName: "ᴏʙᴇᴅᴛᴇᴄʜ ᴀɪ 👻",
           serverMessageId: 143
         }
       }
