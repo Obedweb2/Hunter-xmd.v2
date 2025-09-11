@@ -94,7 +94,7 @@ const apkDownloader = async (m, Matrix) => {
 ┃  *Updated On:* ${app.updated}
 ┃  *Developer:* ${app.developer?.name || 'Unknown'}
 ╰━━━━━━━━━━━━━━━┈⊷
-> *ᴍᴀᴅᴇ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*`;
+> *ᴍᴀᴅᴇ ʙʏ ᴏʙᴇᴅ ᴛᴇᴄʜ*`;
 
     // Send success reaction
     await Matrix.sendMessage(m.key.remoteJid, { react: { text: "⬆️", key: m.key } });
