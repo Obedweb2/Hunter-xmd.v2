@@ -158,8 +158,8 @@ const tourl = async (m, bot) => {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363302677217436@newsletter',
-        newsletterName: 'CASEYRHODES-XMD',
+        newsletterJid: '120363416335506023@newsletter',
+        newsletterName: 'ʜᴜɴᴛᴇʀ xᴍᴅᴠ2',
         serverMessageId: 143
       }
     };
