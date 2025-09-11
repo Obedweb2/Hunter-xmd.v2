@@ -177,7 +177,7 @@ function formatSongInfo(videoInfo, videoUrl) {
   
   // Create a decorated song info with ASCII art
   return `
-╭───〘  *ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* 〙───
+╭───〘  *ʜᴜɴᴛᴇʀ-xᴍᴅᴠ2 ᴀɪ* 〙───
 ├📝 *ᴛɪᴛʟᴇ:* ${videoInfo.title}
 ├👤 *ᴀʀᴛɪsᴛ:* ${videoInfo.author.name}
 ├⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${formattedDuration}
@@ -322,8 +322,8 @@ const play = async (message, client) => {
           forwardingScore: 1,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363302677217436@newsletter',
-            newsletterName: 'POWERED BY CASEYRHODES TECH',
+            newsletterJid: '120363416335506023@newsletter',
+            newsletterName: 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅᴠ2',
             serverMessageId: -1
           }
         };
@@ -356,7 +356,7 @@ const play = async (message, client) => {
         await sendCustomReaction(client, message, "❌");
         
         await client.sendMessage(message.from, {
-          text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont(error.message || "encountered an error. Please try again"),
+          text: "*ʜᴜɴᴛᴇʀ-xᴍᴅᴠ2 ᴀɪ* " + toFancyFont(error.message || "encountered an error. Please try again"),
           mentions: [message.sender]
         }, { quoted: message });
       }
@@ -411,7 +411,7 @@ const play = async (message, client) => {
         const newsletterContext = {
           externalAdReply: {
             title: session.videoTitle.substring(0, 30) || 'Audio Download',
-            body: 'Powered by CASEYRHODES API',
+            body: 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴜɴᴛᴇʀ xᴍᴅᴠ2',
             mediaType: 1,
             sourceUrl: session.videoUrl,
             thumbnail: thumbnailBuffer,
@@ -463,7 +463,7 @@ const play = async (message, client) => {
         await sendCustomReaction(client, message, "❌");
         
         await client.sendMessage(message.from, {
-          text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont(`failed to process ${command} file`),
+          text: "*ʜᴜɴᴛᴇʀ-xᴍᴅᴠ2 ᴀɪ* " + toFancyFont(`failed to process ${command} file`),
           mentions: [message.sender]
         }, { quoted: message });
         
@@ -477,7 +477,7 @@ const play = async (message, client) => {
     await sendCustomReaction(client, message, "❌");
     
     await client.sendMessage(message.from, {
-      text: "*ᴄᴀsᴇʏʀʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont("encountered an error. Please try again"),
+      text: "*ʜᴜɴᴛᴇʀ-xᴍᴅᴠ2 ᴀɪ* " + toFancyFont("encountered an error. Please try again"),
       mentions: [message.sender]
     }, { quoted: message });
   }
